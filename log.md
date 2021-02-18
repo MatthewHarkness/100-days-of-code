@@ -58,5 +58,7 @@ PYTHON DOES NOT REQUIRE SEMI-COLONS. NOBODY TOLD ME THIS. After I managed to get
 I also feel I have abused ``if`` statements in ArithmeticMasterPyEd.py. I'll look at making a cleaner version 2.
 
 **Work:**
+
 1.[HelloWorld.py](CodeLibrary/Day0/HelloWorld.py)
+
 2.[ArithmeticMasterPyEd.py](CodeLibrary/Day0/ArithmeticMasterPyEd.py)
