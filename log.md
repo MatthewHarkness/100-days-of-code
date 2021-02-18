@@ -1,5 +1,6 @@
 # 100 Days Of Code - Log
-Note to Self:[GitHub Markdown for losers](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
+Note to Self: [GitHub Markdown for losers](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
 ----
 
 ### Day 0: February 18, 2021
