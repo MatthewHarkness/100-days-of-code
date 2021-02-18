@@ -6,7 +6,7 @@ Note to Self: [GitHub Markdown for losers](https://github.com/adam-p/markdown-he
 ### Day 0: February 18, 2021
 **Hello World** & **Arithmetic Master Py Edition**
 
-**Progress:**
+** Progress: ** (Baby Steps)
 HelloWorld.py got a little out of hand I experimented with
  - ``print()`` statements (naturally, it is a HelloWorld after all)
  - Variables: ``x = 5`` ``howdyPlanet = 'Howdy Planet'``
@@ -27,9 +27,8 @@ I also feel I have abused ``if`` statements in ArithmeticMasterPyEd.py. I'll loo
 
 **Work:**
 
-1.[HelloWorld.py](CodeLibrary/Day0/HelloWorld.py)
-
-2.[ArithmeticMasterPyEd.py](CodeLibrary/Day0/ArithmeticMasterPyEd.py)
+1. [HelloWorld.py](CodeLibrary/Day0/HelloWorld.py)
+2. [ArithmeticMasterPyEd.py](CodeLibrary/Day0/ArithmeticMasterPyEd.py)
 
 
 ----
