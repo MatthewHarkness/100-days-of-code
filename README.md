@@ -12,6 +12,10 @@
 
 If you want to help by providing a translation of content/rules in the language you know, submit a pull request (or DM me on Twitter @ka11away), adding a sub-folder in the 'intl' folder with the files of the translation there.
 
+## Note From Me
+
+This is a 'safe space' for mistakes. Tweet all the stupid things I've done in my code to me @MattyHarkness!
+
 ## If you've decided to join:
 
 0.  Check out [the Official Site](http://100daysofcode.com/) for the #100DaysOfCode movement. Connect with others on the platform of your choice from this list: www.100DaysOfCode.com/connect
