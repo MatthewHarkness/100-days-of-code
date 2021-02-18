@@ -58,4 +58,4 @@ I also feel I have abused ``if`` statements in ArithmeticMasterPyEd.py. I'll loo
 
 **Work:**
 1.[HelloWorld.py](CodeLibrary/Day0/HelloWorld.py)
-3.[ArithmeticMasterPyEd.py](CodeLibrary/Day0/ArithmeticMasterPyEd.py)
+2.[ArithmeticMasterPyEd.py](CodeLibrary/Day0/ArithmeticMasterPyEd.py)
