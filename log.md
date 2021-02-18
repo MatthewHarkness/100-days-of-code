@@ -21,6 +21,10 @@ TO-DO (haha I too am a programmer):
  - Division. I'll figure out a way to make it generate numbers which can be divided evenly.
  - Perhaps give the user a way to end the while loop too.
 
+Update: I got carried away and continued today anyway. For future reference (and to show the learning process):
+ - ``x = Input()`` by defualt sets x to a String, where my random numbers were ints. I was comparing an int to a String which returns false.
+ - I added an if / else to let the user decide if they want to continue with more questions :D
+
 **Thoughts:**
 After I managed to get it working on Windows, it hit me in the face just how simple Python is, I'm going to have more issues figuring out what to do with it rather than actually doing the things I want to do with it. 
 I also feel I have abused ``if`` statements in ArithmeticMasterPyEd.py. I'll look at making a cleaner version 2.
