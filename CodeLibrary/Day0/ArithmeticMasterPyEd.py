@@ -41,6 +41,6 @@ while isActive == 1:
     if userAns == ans:
         print(':D Correct Answer! Well Done!')
     else:
-        print(':( That was wrong, keep tring. Correct Answer is ', ans)
+        print(':( That was wrong, keep trying. Correct Answer is ', ans)
     
     print()
