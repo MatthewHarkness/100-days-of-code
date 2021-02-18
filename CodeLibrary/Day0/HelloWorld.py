@@ -50,5 +50,6 @@ randNum1 = random.randrange(1, 100)
 print('A random number', randNum1)
 
 #user input
-username = input("Please Enter Name: ")
-print("Your name is", username)
+username = input('Please Enter Name: ')
+print('Your name is', username, '!')
+print()
