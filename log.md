@@ -6,7 +6,7 @@ Note to Self: [GitHub Markdown for losers](https://github.com/adam-p/markdown-he
 ### Day 0: February 18, 2021
 **Hello World** & **Arithmetic Master Py Edition**
 
-** Progress: ** (Baby Steps)
+**Progress:** 
 HelloWorld.py got a little out of hand I experimented with
  - ``print()`` statements (naturally, it is a HelloWorld after all)
  - Variables: ``x = 5`` ``howdyPlanet = 'Howdy Planet'``
