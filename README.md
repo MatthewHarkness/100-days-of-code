@@ -14,7 +14,7 @@ If you want to help by providing a translation of content/rules in the language 
 
 ## Note From Me
 
-This is a 'safe space' for mistakes. Tweet all the stupid things I've done in my code to me @MattyHarkness!
+This is a 'safe space' for mistakes. Tweet all the stupid things I've done in my code to me [@MattyHarkness](https://twitter.com/MattyHarkness)!
 
 ## If you've decided to join:
 
