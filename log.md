@@ -21,7 +21,7 @@ TO-DO (haha I too am a programmer):
  - Perhaps give the user a way to end the while loop too.
 
 **Thoughts:**
-PYTHON DOES NOT REQUIRE SEMI-COLONS. NOBODY TOLD ME THIS. After I managed to get it working on Windows, it hit me in the face just how simple Python is, I'm going to have more issues figuring out what to do with it than I am with actually doing the things. 
+After I managed to get it working on Windows, it hit me in the face just how simple Python is, I'm going to have more issues figuring out what to do with it rather than actually doing the things I want to do with it. 
 I also feel I have abused ``if`` statements in ArithmeticMasterPyEd.py. I'll look at making a cleaner version 2.
 
 **Work:**
@@ -29,3 +29,4 @@ I also feel I have abused ``if`` statements in ArithmeticMasterPyEd.py. I'll loo
 1.[HelloWorld.py](CodeLibrary/Day0/HelloWorld.py)
 
 2.[ArithmeticMasterPyEd.py](CodeLibrary/Day0/ArithmeticMasterPyEd.py)
+----
