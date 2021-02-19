@@ -36,3 +36,28 @@ I also feel I have abused ``if`` statements in ArithmeticMasterPyEd.py. I'll loo
 
 
 ----
+### Day 1: February 19, 2021
+**ArithmeticMasterPyEd.py (continued)** & **TimeTest.html**
+
+**Progress:** 
+All I needed to throw into ArithmeticMaster to get Division working was a modulus check which checks if the first operand (O1) can evenly divide into O2, if it cannot fit I'll just generate new numbers for them until it fits. In other words:
+
+```python
+while O2 % O1 != 0:
+    #generate new numbers buddy
+```
+
+This is very much brute forcing it, but it's still quick and entirely suitable for its purpose. However it still occassionally returns O1 and O2 as the same number which is way too easy, the ``and`` statement does not work how I thought it would in python so I'll need to work that out tonight.
+
+
+After watching the Perseverance Rover land this morning I thought '*wouldn't it be nice if the nasa website just told me the stream would start at 6am my time*'. So I hopped over to http://worldtimeapi.org/ to see if it actually is that hard, it wasn't really but I forgot to plan what I was going to do **and it shows**. The API works pretty flawlessly though so well done to that team.
+
+**Thoughts:**
+Building ArithmeticMaster is really showing my need to practise basic arithmetic. I'm still enjoying python and am really excited to see how ArithmeticMaster pans out. I do want to try looking at functions and that though. That would probably make things a little easier.
+
+I recognise that worldtimeapi does the exact conversions that I need it to do without me even trying, but I am still planning on doing it a slightly more complicated way for fun anyway. I'll reset the site to only have AJAX set up and plan my process beforehand tomorrow.
+
+**Work:**
+
+1. [TimeTest.html](CodeLibrary/Day1/TimeTest.html) (This guy needs a web server and chromium to run )
+2. [ArithmeticMasterPyEd.py](CodeLibrary/Day1/ArithmeticMasterPyEd.py)
