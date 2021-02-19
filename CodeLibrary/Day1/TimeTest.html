@@ -1,0 +1,72 @@
+<html>
+<head>
+    <title>Time Test</title>
+    <script>
+        //AJAX
+        function makeAjaxQuery(){
+            //Create XMLHttpRequest
+            var xhttp = new XMLHttpRequest();
+
+            //Create a readStateChangeHandler
+            xhttp.onreadystatechange = function() {
+                readyStateChangeHandler(xhttp)
+            }
+
+            //Make Query for JSON
+            var queryURL = "http://worldtimeapi.org/api/ip";  //You must open a webserver for this to work
+            xhttp.open("GET", queryURL, true);
+            xhttp.send();
+        }
+
+        //Determine if JSON has been recieved or not
+        function readyStateChangeHandler(xhttp){
+            if(xhttp.readyState == 4){
+                if(xhttp.status == 200)
+                    statusSuccess(xhttp);
+                
+                else
+                    statusFailed(xhttp);
+            }
+        }
+
+        //recieved JSON!
+        function statusSuccess(xhttp){
+            console.log("AJAX success!");
+            var timezoneData = JSON.parse(xhttp.responseText);
+            convertTime(timezoneData);
+        }
+
+        //JSON missing!
+        function statusFailed(xhttp){
+            console.log("AJAX has failed: xhttp.status = " + xhttp.status);
+        }
+
+        //Compare inputted time to xhttp.utc_offset
+        function convertTime(timezoneData){
+
+            console.log(JSON.stringify(timezoneData, null, 4));
+            console.log('Your time is UTC ', timezoneData.utc_offset);
+
+            //Get UTC time from form
+            var UTC_datetime = document.getElementById('UTC_datetime').value;
+            var UTC_time = UTC_datetime.slice(11, 16);
+            var UTC_timeArr = UTC_time.split(':');
+            console.log('Inputted Time = ', UTC_timeArr);
+            
+            //Add UTC offset (this works as adding a negative still subtracts) to time on form
+
+
+            //If result is > 24, subtract 24, add 1 day.
+                //else if result < 0, add 24, subtract 1 day.
+        }
+    </script>
+</head>
+<body>
+    <h1>Time Zone Tester</h1>
+    <h3>This will only work in Chromium Browsers (i.e. Google Chrome, Microsoft Edge)</h3>
+    Enter a time () and date that will represent UTC time:
+    <br />
+    <input type="datetime-local" id="UTC_datetime" />
+    <button onClick="makeAjaxQuery()">Get Time Zones</button> 
+</body>
+</html>
