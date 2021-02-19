@@ -40,7 +40,7 @@ while isActive == 1:
             print(O1, '*', O2, end = '')
             operatorPicked = 1
 
-        #TO-DO: Division
+        #Division
         elif operator == '/':
             #Check numbers can be divided evenly
             while O2 % O1 != 0:
