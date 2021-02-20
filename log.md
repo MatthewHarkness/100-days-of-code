@@ -61,3 +61,33 @@ I recognise that worldtimeapi does the exact conversions that I need it to do wi
 
 1. [TimeTest.html](CodeLibrary/Day1/TimeTest.html) (This guy needs a web server and chromium to run )
 2. [ArithmeticMasterPyEd.py](CodeLibrary/Day1/ArithmeticMasterPyEd.py)
+
+----
+### Day 2: February 20, 2021
+**classtest.py** and **ArithmeticMasterPyEd.py (continued)**
+
+**Progress:** 
+classtest.py is a script which explains Object Orientated Programming in Python.
+ - Drew up a (very) simple UML Class Diagram to represent what I want to do. It's very java and I need to find correct UML conventions for Python.
+ - Implemented classes `Car` and `Owner`. Guess how they interact
+ - I am discovering the incredible world of underscores in Python. Particularly ``__init__()`` and ``__str__()`` which after a [quick search](https://medium.com/python-features/naming-conventions-with-underscores-in-python-791251ac7097) shows that they are "Dunder Methods", that is methods with underscores so that it doesn't conflict with user methods of the same name. 
+
+Neat.
+
+- To expand on the last point. Python conventions are very different from that which established in Java. [I am leaving this here](https://www.python.org/dev/peps/pep-0008/) for future reference.
+- Arithmetic Master no longer includes duplicate operands; and now uses actual booleans as opposed to numbers.
+- Answers in Arithmetic Master are now presented as ints instead of Doubles.
+
+Old Answers (Ugly, uncomfortable gross): ``Correct Answer is 7.0``
+
+New Answers (Cool, sexy, ambitious): ``Correct Answer is 7``
+
+**Thoughts:**
+OOP seems to work the same throughout most of Python as it does to Java, learning the correct grammar and conventions would be useful but ultimatly I don't feel I will learn anything new from this route. I'll finish classtest.py tomorrow before finding a different direction.
+
+Similarly, ArithmeticMasterPyEd.py does most of what I want it to. I was planning on experimenting with Tkinter GUI, but I might hold that so I can instead focus on features where Python might be more useful. Perhaps I'll check out this 'Machine Learning' thing as a long term goal.
+
+**Work:**
+1. [classtest.py](https://github.com/MatthewHarkness/100-days-of-code/blob/master/CodeLibrary/Day2/classtest.py)
+2. [classtest.jpg (UML Class Diagram)](https://github.com/MatthewHarkness/100-days-of-code/blob/master/CodeLibrary/Day2/classtest.jpg)
+3. [ArithmeticMasterPyEd.py (final terminal version for now)](https://github.com/MatthewHarkness/100-days-of-code/blob/master/CodeLibrary/Day2/ArithmeticMasterPyEd.py)
