@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>640</x>
+      <y>490</y>
+      <w>210</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>Owner
+-
+-fName: String
+-lName: String
+-age: int
+-phoneNum: int
+-lNum: int
+-
++getFName() : String
++setFName(String) : void
++getLName() : String
++setLLame(String)
++getAge(): int
++setAge(int): void
++getPhoneNum(): int
++setPhoneNum(int): void
++getLNum(): int
++setLNum(int): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>970</x>
+      <y>490</y>
+      <w>210</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>Car
+-
+-manufacturer: String
+-rNum: int
+-colour: String
+-owner: Owner
+-
++getManufacturer(): String
++setManufacturer(String): void
++getRNum(): int
++setRNum(int): void
++getColour(): String
++setColour(String): void
++getOwner(): Owner
++setOwner(Owner)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>970</x>
+      <y>300</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Garage
+-
+-garage: Array[Car]
+-
++getGarage() : Array
++addToGarage(Car c) : void
++getFromGarage(int): Car</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>840</x>
+      <y>560</y>
+      <w>150</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+owns &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1070</x>
+      <y>390</y>
+      <w>100</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..1
+m2=0..*
+stored in ^</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>900</x>
+      <y>750</y>
+      <w>310</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Expansion (Food for thought):
+Car can be changed to vehicle with
+generalisations:
+- Car
+- Bike
+- Truck
+Different vehicles could be in differnt Garages.
+Owner could be renting a garage from landlord.
+Customer could be renting vehicle from Owner.</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
