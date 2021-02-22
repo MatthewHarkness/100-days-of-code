@@ -128,7 +128,7 @@ Similarly, ArithmeticMasterPyEd.py does most of what I want it to. I was plannin
 **SecQuestionGenerator.py**
 
 **Progress:**
- - Created SecQuestionGenerator.py as means to play with lists and have a laugh while doing so.
+ - Created SecQuestionGenerator.py as means to play with `list` and have a laugh while doing so.
  
 **Thoughts:**
 I hope I can justify this incredibly simple program with the excuse of 'Today was a work day and I spent all my free time studying for that exam I have tomorrow'. The list system doesn't work too differently from Java arrays, but once again falls into that void of 'I already know what I am doing with this'. I need to find a way to push myself into doing more complicated and ambitious projects.
@@ -137,3 +137,36 @@ I hope I can justify this incredibly simple program with the excuse of 'Today wa
 1. [SecQuestionGenerator.py](https://github.com/MatthewHarkness/100-days-of-code/blob/master/CodeLibrary/Day3/SecQuestionGenerator.py)
 
 ---
+### Day 4: Feburary 22, 2021
+**Function.py** and **classtest.py (continued)**
+
+**Progress:**
+
+Function.py was a means to comprehend what exactly functions are in Python with basic maths functions:
+ - Created Function.py with increment, decrement and squared functions to create a value from `i = 0`
+``Python
+def incrementFunct(i):
+    i += 1
+    return i
+
+def decrementFunct(i):
+    i -= 1
+    return i
+
+def squared(i):
+    i *= i
+    return i
+``
+Arent they cute?
+
+classtest.py
+ - Added `Class Garage:`, including a list `garageList = []`
+ - Found unique ways to add `Car` objects to garageList from outside the class, I was impressed that Python allowed `print(garage.getGarageList()[1])`
+ - Used a unique `for` loop to access list items: `for x in garage.getGarageList():`
+
+**Thoughts:**
+I desperately need to plan what I am doing for #100DaysOfCode over the next few weeks. 4 days in and I am already feeling a little lost, with worthwhile progress drastically dwindling.  Regardless, understand Objects, funictions and Lists feels like a vital aspect of Python, I just feel that that should have been done as part of a larger more ambitious project.
+
+**Work:**
+1. [function.py](https://github.com/MatthewHarkness/100-days-of-code/blob/master/CodeLibrary/Day4/Function.py)
+2. [classtest.py](https://github.com/MatthewHarkness/100-days-of-code/blob/master/CodeLibrary/Day4/classtest.py)
