@@ -122,3 +122,18 @@ Similarly, ArithmeticMasterPyEd.py does most of what I want it to. I was plannin
 1. [classtest.py](https://github.com/MatthewHarkness/100-days-of-code/blob/master/CodeLibrary/Day2/classtest.py)
 2. [classtest.jpg (UML Class Diagram)](https://github.com/MatthewHarkness/100-days-of-code/blob/master/CodeLibrary/Day2/classtest.jpg)
 3. [ArithmeticMasterPyEd.py (final terminal version for now)](https://github.com/MatthewHarkness/100-days-of-code/blob/master/CodeLibrary/Day2/ArithmeticMasterPyEd.py)
+
+---
+### Day 3: February 21, 2021
+**SecQuestionGenerator.py**
+
+**Progress:**
+ - Created SecQuestionGenerator.py as means to play with lists and have a laugh while doing so.
+ 
+**Thoughts:**
+I hope I can justify this incredibly simple program with the excuse of 'Today was a work day and I spent all my free time studying for that exam I have tomorrow'. The list system doesn't work too differently from Java arrays, but once again falls into that void of 'I already know what I am doing with this'. I need to find a way to push myself into doing more complicated and ambitious projects.
+
+**Work:**
+1. [SecQuestionGenerator.py](https://github.com/MatthewHarkness/100-days-of-code/blob/master/CodeLibrary/Day3/SecQuestionGenerator.py)
+
+---
