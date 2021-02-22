@@ -144,7 +144,7 @@ I hope I can justify this incredibly simple program with the excuse of 'Today wa
 
 Function.py was a means to comprehend what exactly functions are in Python with basic maths functions:
  - Created Function.py with increment, decrement and squared functions to create a value from `i = 0`
-``Python
+```Python
 def incrementFunct(i):
     i += 1
     return i
@@ -156,7 +156,7 @@ def decrementFunct(i):
 def squared(i):
     i *= i
     return i
-``
+```
 Arent they cute?
 
 classtest.py
