@@ -137,7 +137,7 @@ I hope I can justify this incredibly simple program with the excuse of 'Today wa
 1. [SecQuestionGenerator.py](https://github.com/MatthewHarkness/100-days-of-code/blob/master/CodeLibrary/Day3/SecQuestionGenerator.py)
 
 ---
-### Day 4: Feburary 22, 2021
+### Day 4: February 22, 2021
 **Function.py** and **classtest.py (continued)**
 
 **Progress:**
@@ -170,3 +170,37 @@ I desperately need to plan what I am doing for #100DaysOfCode over the next few 
 **Work:**
 1. [function.py](https://github.com/MatthewHarkness/100-days-of-code/blob/master/CodeLibrary/Day4/Function.py)
 2. [classtest.py](https://github.com/MatthewHarkness/100-days-of-code/blob/master/CodeLibrary/Day4/classtest.py)
+
+---
+### Day 5: February 23, 2021
+**piptest.py, numpyarrays.py** and **numpyanalysis.py**
+
+
+**(Learning) Progress:**
+This bit is going to be a little less 'log' and a little more explaining what I have figured out.
+ - Figured out how packages work in python. (its super simple)
+
+```
+C:\\> pip install numpy
+Collecting numpty...
+```
+Its that easy.
+- I can activate any package or module in a .py file by simply importing it ``import numpy``
+- [NumPy](https://github.com/numpy/numpy) is a useful package for Arrays.
+- Python features an `as` statement which functions like how it does in SQL. Instead of having to type out 5 whole characters `numpy.function()` in the code, I can set it with ``import numpy as np`` and I can refer to numpy as np `np.function()` in code. Brilliant!
+- np allows the creation of actual arrays. 
+- 2D and 3D arrays are very literally 'an array inside an array' in the np syntax (and I love it).
+- np has the means (pun intended) to analyse arrays. I should look at [SciPy](https://www.scipy.org/) to expand that functionality.
+
+What I have learnt is more detailed in my actual programs. Check them out for specifics.
+
+**Thoughts:**
+
+Modules and Functions bring even more to Python. I am beginning my Machine learning process but that starts with relearning high school maths, and honestly I am okay with this. Figuring out a Standard Deviation is actually fun when there is no pressure. This will also fit very nicely alongside my current uni subjects. I'll absolutely continue down the path of [w3schools machine learning tutorial](https://www.w3schools.com/python/python_ml_getting_started.asp). It does look relatively simple but w3 always manage to be an incredible path for beginning.
+
+**Work:**
+1. [piptest.py](https://github.com/MatthewHarkness/100-days-of-code/blob/master/CodeLibrary/Day5/piptest.py)
+2. [numpyarrays.py](https://github.com/MatthewHarkness/100-days-of-code/blob/master/CodeLibrary/Day5/numpyarrays.py)
+3. [numpanalysis.py](https://github.com/MatthewHarkness/100-days-of-code/blob/master/CodeLibrary/Day5/numpyanalysis.py)
+
+I will likely take my first break from #100DaysOfCode tomorrow so I can complete a fun fast food shift at work, and focus on my uni assignment.
