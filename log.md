@@ -181,7 +181,7 @@ This bit is going to be a little less 'log' and a little more explaining what I 
  - Figured out how packages work in python. (its super simple)
 
 ```
-C:\\> pip install numpy
+C:\\>py -m pip install numpy
 Collecting numpty...
 ```
 Its that easy.
